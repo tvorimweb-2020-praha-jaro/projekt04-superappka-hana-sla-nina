@@ -80,7 +80,7 @@ a:focus {
 
 .infotext,
 .telefon {
-    flex: 1 1 1%; /*definuju, jak se budou smrskávat/roztahovat flex-items od flexboxu .UVODNITAPETA*/
+    flex: 1; /*STACI JEN 1 - definuju, jak se budou smrskávat/roztahovat flex-items od flexboxu .UVODNITAPETA*/
 }
 
 .telefon { /*jedna z FLEXITEMs od flexboxu .UVODNITAPETA a zároveň FLEXBOX pro 1 položku .TELEFON-IMG*/
@@ -148,7 +148,7 @@ a:focus {
 
 .sloupec {
     padding: 20px;
-    flex: 1 1 1%; /*pro všechny flexitems se třídou .SLOUPEC > díky tomu automaticky vyplní prostor svého flexboxu rovnoměrně*/
+    flex: 1; /*STACI DAT JEN 1 / pro všechny flexitems se třídou .SLOUPEC > díky tomu automaticky vyplní prostor svého flexboxu rovnoměrně*/
     text-align: center;
 }
 
